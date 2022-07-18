@@ -1,0 +1,34 @@
+
+.main{
+    width: 1000px;
+    height: 800px;
+    border: 2px solid black;
+}
+.a{
+    height: 200px;
+    background: #9166e7;
+}
+.bot{
+    height: 600px;
+    display: flex;
+}
+.b{
+    width: 75%;
+    height: 600px;
+    background: darkslateblue;
+
+}
+.c{
+    width: 25%;
+    height: 600px;
+    background: #2f2d38;
+}
+@media screen and (max-width: 600px){
+    .bot{
+        flex-direction: column;
+    }
+    .c{
+        width: 100%;
+        background: black;
+    }
+}
