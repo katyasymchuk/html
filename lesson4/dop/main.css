@@ -1,4 +1,206 @@
+.father{
+    width: 1300px;
+    height: 1000px;
+    border: 2px solid black;
 
-@media screen and (max-width: 600px){
+    text-align: center;
 
+
+
+}
+.top{
+    width: 100%;
+    height: 200px;
+    display: flex;
+
+
+}
+.logo{
+    width: 25%;
+    background: #5a11ea;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header{
+    width: 75%;
+    background: #8c73c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main{
+    width: 1300px;
+    height: 600px;
+    background: #7e99f6;
+    display: flex;
+
+}
+.container1{
+    width: 25%;
+    height: 600px;
+    background: #9166e7;
+    flex-direction: column;
+}
+.nav{
+    width: 100%;
+    height: 50%;
+    background: #2f2d38;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3{
+    width: 100%;
+    height: 50%;
+    background: #2d3835;
+
+}
+.store{
+    width: 100%;
+    height: 50%;
+    background: #1bf8b8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tools{
+    width: 100%;
+    height: 50%;
+    background: #22423b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    width: 75%;
+    height: 600px;
+    background: #5a11ea;
+
+}
+.bath{
+    height: 100%;
+    width: 50%;
+    background: #7e99f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ad{
+    height: 100%;
+    width: 50%;
+    background: #1b2f73;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box1{
+    width: 100%;
+    height: 30%;
+    background: #19b687;
+    display: flex;
+}
+.box2{
+    width: 100%;
+    height: 70%;
+    background: #b6eadb;
+    display: flex;
+}
+.types{
+    height: 100%;
+    width: 50%;
+    background: #b1bcda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.related{
+    height: 100%;
+    width: 50%;
+    background: #f1cd5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background: #b92121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin: 0;
+    font-size: 20px;
+}
+@media screen and (max-width: 900px){
+    .father{
+        width: 100%;
+    }
+.main{
+    width: 100%;
+    height: 100px;
+    flex-direction: column;
+}
+.top{
+    height: 200px;
+    position: absolute;
+    top: 0;
+}
+    .container1{
+        width: 100%;
+        min-width: 800px;
+        height: 1000px;
+
+
+    }
+.nav{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+
+}
+.box3{
+    position: absolute;
+   top: 700px;
+    height: 200px;
+    display: flex;
+}
+.box1{
+    height: 200px;
+    position: absolute;
+    top: 300px;
+}
+
+.container2{
+    width: 100%;
+}
+.box2{
+    flex-direction: column;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+
+}
+.types{
+    width: 100%;
+}
+.related{
+    width: 100%;
+}
+    .footer{
+        position: absolute;
+        top: 800px;
+    }
+    .bath{
+        width: 75%;
+    }
+    .ad{
+        width: 25%;
+    }
 }
